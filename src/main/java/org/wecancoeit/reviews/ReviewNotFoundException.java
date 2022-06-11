@@ -5,5 +5,5 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @SuppressWarnings("serial")
 @ResponseStatus(code= HttpStatus.NOT_FOUND, reason="Bad Request, Review Not Found!")
-public class CourseNotFoundException extends Exception {
+public class ReviewNotFoundException extends Exception {
 }
